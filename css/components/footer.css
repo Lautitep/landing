@@ -1,0 +1,28 @@
+.footer{
+  background-color: rgb(50, 50, 50);
+  height: 250px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer p{
+  color: rgba(255,255,255,0.3);
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline{
+  padding: 70px 0px 0px 0px;
+  list-style: none;
+}
+
+.list-inline a{
+  color: #4B7BE5;
+}
+.size-icon{
+  font-size: 30px;
+}

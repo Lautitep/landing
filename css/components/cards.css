@@ -1,0 +1,53 @@
+.banner{
+  height: 550px;
+  background-size: cover;
+  background-position: 0px -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1{
+  display: block;
+  font-size: 30px;
+  color: white;
+}
+.banner p{
+  color: rgba(255,255,255,0.7);
+  font-size: 18px;
+}
+.banner a{
+  background-color: #4B7BE5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+.banner a:hover{
+  background-color: white;
+  color: #4B7BE5;
+}
+
+.cards-work{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 250px;
+  height: 280px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+.card img{
+  width: 150px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.card p{
+  text-align: center;
+  width: 200px;
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: lighter;
+  color: rgb(130, 130, 130);
+}
